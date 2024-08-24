@@ -11,7 +11,7 @@ data = {
     'Pizza': np.random.randint(20, 60, size=7),
     'Burger': np.random.randint(15, 55, size=7),
     'Salad': np.random.randint(5, 30, size=7),
-    'Steak': np.random.randint(10, 40, size=7)
+    'Noodles': np.random.randint(10, 40, size=7)
 }
 
 df = pd.DataFrame(data)
@@ -36,19 +36,19 @@ print("\nSaturday's Sales:")
 print(df[df['Day'] == 'Saturday'])
 
 # Adding a Total Sales column
-df['Total Sales'] = df[['Pasta', 'Pizza', 'Burger', 'Salad', 'Steak']].sum(axis=1)
+df['Total Sales'] = df[['Pasta', 'Pizza', 'Burger', 'Salad', 'Noodles']].sum(axis=1)
 print("\nData with Total Sales Column:")
 print(df)
 
 # 3. Using Numpy for Analysis
 # Calculate the average sales of each dish over the week
-average_sales = np.mean(df[['Pasta', 'Pizza', 'Burger', 'Salad', 'Steak']].values, axis=0)
+average_sales = np.mean(df[['Pasta', 'Pizza', 'Burger', 'Salad', 'Noodles']].values, axis=0)
 print("\nAverage Sales of Each Dish Over the Week:")
 print("Pasta: ", average_sales[0])
 print("Pizza: ", average_sales[1])
 print("Burger: ", average_sales[2])
 print("Salad: ", average_sales[3])
-print("Steak: ", average_sales[4])
+print("Noodles: ", average_sales[4])
 
 # Maximum and Minimum Sales
 max_sales = np.max(df['Total Sales'])
@@ -59,7 +59,7 @@ print("Min Sales in a Day: ", min_sales)
 # 4. Visualizing Data with Matplotlib
 # Plotting the sales of each dish across the days of the week
 plt.figure(figsize=(10, 6))
-for dish in ['Pasta', 'Pizza', 'Burger', 'Salad', 'Steak']:
+for dish in ['Pasta', 'Pizza', 'Burger', 'Salad', 'Noodles']:
     plt.plot(df['Day'], df[dish], marker='o', label=dish)
 
 plt.title("Daily Sales of Dishes")
@@ -78,7 +78,7 @@ plt.ylabel("Total Sales")
 plt.show()
 
 # 6. Pie Chart: Distribution of Sales Among Different Dishes Over the Week
-total_dish_sales = df[['Pasta', 'Pizza', 'Burger', 'Salad', 'Steak']].sum().values
+total_dish_sales = df[['Pasta', 'Pizza', 'Burger', 'Salad', 'Noodles']].sum().values
 labels = ['Pasta', 'Pizza', 'Burger', 'Salad', 'Steak']
 
 plt.figure(figsize=(7, 7))
