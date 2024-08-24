@@ -1,4 +1,4 @@
-# Python Libraries for AI/ML Training
+# AI/ML - Session 1 (26th August 2024)
 
 ## Introduction to Data Science
 
