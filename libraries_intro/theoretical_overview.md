@@ -1,10 +1,13 @@
-# Quick Overview: Pandas, Numpy, and Matplotlib
+# AI/ML - Session 1 (26th August 2024)
+### By - Heta Rahul Patel
 
-When dealing with data in Python, three powerful libraries come to the forefront: **pandas**, **numpy**, and **matplotlib**. Each of these libraries serves a specific purpose and is commonly used in various data analysis and machine learning workflows.
+## Pandas, Numpy, and Matplotlib
 
-## Pandas: The Data Handling Powerhouse
+- When dealing with data in Python, three powerful libraries come to the forefront: **pandas**, **numpy**, and **matplotlib**. Each of these libraries serves a specific purpose and is commonly used in various data analysis and machine learning workflows.
 
-**Pandas** is the go-to library for working with structured data. It is designed for fast and efficient data manipulation, and it allows you to work with data stored in tabular formats like Excel, CSV, SQL databases, and more.
+# Pandas: The Data Handling Powerhouse
+
+- **Pandas** is the go-to library for working with structured data. It is designed for fast and efficient data manipulation, and it allows you to work with data stored in tabular formats like Excel, CSV, SQL databases, and more.
 
 ### Why Pandas?
 
@@ -17,9 +20,9 @@ When dealing with data in Python, three powerful libraries come to the forefront
 - For tasks such as loading data, cleaning it, reshaping it, and performing operations like aggregations and merges.
 - Any situation where you need to explore and manipulate datasets in tabular formats.
 
-## Numpy: Efficient Numerical Computations
+# Numpy: Efficient Numerical Computations
 
-**Numpy** is a core library for performing mathematical and logical operations on arrays. Unlike traditional lists in Python, **Numpy arrays** are faster and more efficient, making them ideal for numerical computations.
+- **Numpy** is a core library for performing mathematical and logical operations on arrays. Unlike traditional lists in Python, **Numpy arrays** are faster and more efficient, making them ideal for numerical computations.
 
 ### Why Numpy?
 
@@ -32,9 +35,9 @@ When dealing with data in Python, three powerful libraries come to the forefront
 - For tasks involving multi-dimensional data such as matrices or grids, especially in scientific computing or machine learning.
 - When you need to integrate with other libraries such as pandas or libraries like TensorFlow that rely on Numpy under the hood.
 
-## Matplotlib: Bringing Data to Life with Visualization
+# Matplotlib: Bringing Data to Life with Visualization
 
-**Matplotlib** is a plotting library used to create static, animated, and interactive visualizations in Python. It provides a wide range of plotting capabilities to visually represent your data.
+- **Matplotlib** is a plotting library used to create static, animated, and interactive visualizations in Python. It provides a wide range of plotting capabilities to visually represent your data.
 
 ### Why Matplotlib?
 
