@@ -1,4 +1,5 @@
 # AI/ML - Session 1 (26th August 2024)
+### By - Heta Rahul Patel
 
 ## Introduction to Data Science
 
